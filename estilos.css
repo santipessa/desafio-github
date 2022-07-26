@@ -23,6 +23,11 @@ header nav {
     padding: 10px;
 }
 
+li a:hover {
+    color: rgb(236, 220, 220);
+    font-size: 25px;
+}
+
 .logo {
     max-width: 200px;
     object-fit: cover;
@@ -89,6 +94,11 @@ h4 {
     height: 100%;
 }
 
+.grid-container img:hover{
+    border: solid 1px;
+    border-radius: 1rem;
+}
+
 .grid-container {
     position: relative;
 }
@@ -106,7 +116,6 @@ h4 {
     margin: 20px 10px 20px 10px;
     padding: 10px;
     border-radius: 1rem;
-
 }
 
 .ofertas div div img {
@@ -114,6 +123,14 @@ h4 {
     height: 300px;
 }
 
+.ofertas div div img:hover{
+    height: 345px;
+}
+
+.ofertas div div a:hover{
+    background-color: rgb(236, 220, 220);
+    
+}
 .ofertas div div {
     border: 1px solid rgb(46, 41, 41);
     border-radius: .3rem;
@@ -145,6 +162,11 @@ h4 {
     align-items: center;
     justify-items: center;
     background-color: rgb(236, 220, 220);
+    border-radius: 1rem;
+}
+
+.img-nosotros:hover{
+    border: solid 1px;
     border-radius: 1rem;
 }
 
